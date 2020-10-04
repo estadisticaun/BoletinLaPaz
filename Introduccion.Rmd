@@ -1,0 +1,35 @@
+# Introducción {-#intro}
+
+## Misión {-#mision}
+
+Como Universidad de la nación fomenta el acceso con equidad al sistema educativo colombiano, provee la mayor oferta de programas académicos, forma profesionales competentes y socialmente responsables. Contribuye a la elaboración y resignificación del proyecto de nación, estudia y enriquece el patrimonio cultural, natural y ambiental del país. Como tal lo asesora en los órdenes científico, tecnológico, cultural y artístico con autonomía académica e investigativa.
+
+## Visión 2034 {-#vision}
+
+En el año 2034 somos la principal universidad colombiana, reconocida por su contribución a la Nación, y por su excelencia en los procesos de formación, investigación, e innovación social y tecnológica. Nuestra capacidad de reinventarnos nos ha llevado a tener una organización académica y administrativa novedosa, flexible, eficiente y sostenible, con comunicación transparente y efectiva en su interior, con la Nación y con el mundo, y comprometida con los procesos de transformación social requeridos para alcanzar una sociedad equitativa, incluyente y en paz. 
+
+## Historia {-#hist}
+
+
+
+
+## Ubicación {-#ubica}
+
+La Sede La Paz de la Universidad Nacional de Colombia se encuentra ubicada en la Carretera Nacional kilómetro 9 Vía Valledupar - La Paz, Cesar-Colombia.
+
+<html>
+<center>
+<body>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8124106.755747486!2d-77.48506794419619!3d6.15097125757452!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e8abb75d3ab9885%3A0xa717270155f56fa!2sUniversidad%20Nacional%20de%20Colombia%20Sede%20La%20Paz!5e0!3m2!1ses!2sco!4v1601053823004!5m2!1ses!2sco" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+</body>
+</center>
+</html>
+
+
+## Programa de Admisión Especial - La Paz {-#paespaz}
+
+
+
+
