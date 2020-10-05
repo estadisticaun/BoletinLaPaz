@@ -9,9 +9,9 @@ La Sede La Paz en la actualidad no cuenta con programas de postgrado. Por lo ant
 
 El proceso de formación en pregrado en la Sede La Paz se da a la luz de los lineamientos definidos en el Programa Especial de Admisión ......
 
-* [Aspirantes a pregrado](#AspPre): contiene la información oficial del total de aspirantes a pregrado en la Sede La Paz de la Universidad Nacional de Colombia y que se incribieron a través del Programa Especial ........
+* [Aspirantes a pregrado](#AspPre): contiene la información oficial del total de aspirantes a pregrado en la Sede La Paz de la Universidad Nacional de Colombia y que se incribieron a través del Programa Especial de esta sede creado mediante el [Acuerdo 301](http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=93599) de 2019 del CSU.
 
-* [Admitidos a pregrado](#AdmPre): contiene la información oficial del total de admitidos a pregrado en la Sede La Paz de la Universidad Nacional de Colombia y que se incribieron a través del Programa Especial ......
+* [Admitidos a pregrado](#AdmPre): contiene la información oficial del total de admitidos a pregrado en la Sede La Paz de la Universidad Nacional de Colombia y que se incribieron a través del Programa Especial de Admisión creado mediante el [Acuerdo 301](http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=93599) de 2019 del CSU.
 
 
 <h3>**Metadatos**</h3>

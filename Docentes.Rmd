@@ -2,7 +2,7 @@
 
 Este capítulo presenta el consolidado de las principales características asociadas a la información estadística oficial de los docentes de carrera adscritos a la Sede La Paz de la Universidad Nacional de Colombia.
 
-A continuación, se presenta una breve descripción de las secciones que hacen parte de este capítulo así como la ubicación del sitio web en donde se presentan las definiciones, los estándares y las codificaciones/clasificaciones que hacen parte de la información acá contenida (*metadatos*) y cuya exploración y lectura facilitará el entendimiento de las cifras asociadas, principalmente, a la población de docentes de carrera en esta sede de la Universidad.
+A continuación, se presenta una breve descripción de las secciones que hacen parte de este capítulo así como la ubicación del sitio web en donde se presentan las definiciones, los estándares y las codificaciones/clasificaciones que hacen parte de la información acá contenida (*metadatos*) y cuya exploración y lectura facilitará el entendimiento de las cifras asociadas a la población de docentes de carrera en esta sede de la Universidad.
 
 
 <h3>**Secciones**</h3>

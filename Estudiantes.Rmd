@@ -7,7 +7,7 @@ La Sede La Paz en la actualidad no cuenta con programas de postgrado. Por lo ant
 <h3>**Secciones**</h3> 
 
 
-El proceso de formación en pregrado en la Sede La Paz se da a la luz de los lineamientos definidos en el Programa Especial de Admisión ...... Teniendo en cuenta lo anterior, en este capítulo se presentan las estadísticas oficiales asociadas a tres poblaciones de estudiantes matriculados en pregrado en la Sede La Paz de la Universidad Nacional de Colombia.  
+El proceso de formación en pregrado en la Sede La Paz se da a la luz de los lineamientos definidos en el Programa Especial de Admisión de esta sede creado mediante el [Acuerdo 301](http://www.legal.unal.edu.co/rlunal/home/doc.jsp?d_i=93599) de 2019 del CSU. Teniendo en cuenta lo anterior, en este capítulo se presentan las estadísticas oficiales asociadas a la población de estudiantes matriculados en pregrado en la Sede La Paz de la Universidad Nacional de Colombia.  
 
 * [Matriculados en pregrado](#MatPre): contiene la información oficial del total de estudiantes matricualdos en pregrado en la Universidad y que han sido admitidos a través de la Sede La Paz. 
 
@@ -20,7 +20,7 @@ La construcción de las cifras oficiales de estudiantes matriculados en pregrado
 
 ## Matriculados en pregrado{#MatPre}
 
-A continuación, se presenta la información oficial del total de estudiantes matricualdos en pregrado en la Universidad y que han sido admitidos a través de la **Sede La Paz**. Incluye los estudiantes de pregrado que se encuentran en las tres etapas de formación: *inicial*, *movilidad* y *final*. En específico, se presenta la evolución histórica de los matriculados en pregrado desde diferentes perspectivas: general, etapa de formación, sedes andinas, sexo, grupos de edad,  estrato socioeconómico, departamentos y municipios de residencia y programas académicos en los que estos se encuentran matriculados. Para cada una de las variables analizadas se presenta la evolución histórica (*serie de tiempo*) así como el comportamiento actual (*estado actual*) derivado de las últimas mediciones disponibles.
+A continuación, se presenta la información oficial del total de estudiantes matricualdos en pregrado en la Universidad y que han sido admitidos a través de la **Sede La Paz**. En específico, se presenta la evolución histórica de los matriculados en pregrado desde diferentes perspectivas: general, etapa de formación, sedes andinas, sexo, grupos de edad,  estrato socioeconómico, departamentos y municipios de residencia y programas académicos en los que estos se encuentran matriculados. Para cada una de las variables analizadas se presenta la evolución histórica (*serie de tiempo*) así como el comportamiento actual (*estado actual*) derivado de las últimas mediciones disponibles.
 
 <!-- ### Evolución histórica -->
 

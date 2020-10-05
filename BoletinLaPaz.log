@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.3)  4 OCT 2020 10:06
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.3)  5 OCT 2020 13:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -849,27 +849,27 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 
 ] [7] [8
 
-] [9] [10
-
-]
+] [9] [10]
 Chapter 1.
-[11] [12
+[11
+
+] [12
 
 ]
 Chapter 2.
 [13]
 
-LaTeX Warning: Reference `fig:F1AspPre' on page 14 undefined on input line 176.
+LaTeX Warning: Reference `fig:F1AspPre' on page 14 undefined on input line 184.
 
 
 File: BoletinLaPaz_files/figure-latex/F1AspPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F1AspPre-1.pdf>
 
-LaTeX Warning: Reference `fig:F2AspPre' on page 14 undefined on input line 183.
+LaTeX Warning: Reference `fig:F2AspPre' on page 14 undefined on input line 191.
 
 
 
-LaTeX Warning: Reference `fig:F3AspPre' on page 14 undefined on input line 183.
+LaTeX Warning: Reference `fig:F3AspPre' on page 14 undefined on input line 191.
 
 
 [14]
@@ -878,16 +878,16 @@ File: BoletinLaPaz_files/figure-latex/F2AspPre-1.pdf Graphic file (type pdf)
 File: BoletinLaPaz_files/figure-latex/F3AspPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F3AspPre-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 185--187
+Underfull \hbox (badness 10000) in paragraph at lines 193--195
 [][]
  []
 
 
-LaTeX Warning: Reference `fig:F4AspPre' on page 15 undefined on input line 191.
+LaTeX Warning: Reference `fig:F4AspPre' on page 15 undefined on input line 199.
 
 
 
-LaTeX Warning: Reference `fig:F5AspPre' on page 15 undefined on input line 191.
+LaTeX Warning: Reference `fig:F5AspPre' on page 15 undefined on input line 199.
 
 
 
@@ -899,16 +899,16 @@ File: BoletinLaPaz_files/figure-latex/F4AspPre-1.pdf Graphic file (type pdf)
 File: BoletinLaPaz_files/figure-latex/F5AspPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F5AspPre-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--195
+Underfull \hbox (badness 10000) in paragraph at lines 201--203
 [][]
  []
 
 
-LaTeX Warning: Reference `fig:F6AspPre' on page 16 undefined on input line 199.
+LaTeX Warning: Reference `fig:F6AspPre' on page 16 undefined on input line 207.
 
 
 
-LaTeX Warning: Reference `fig:F7AspPre' on page 16 undefined on input line 199.
+LaTeX Warning: Reference `fig:F7AspPre' on page 16 undefined on input line 207.
 
 
 
@@ -920,16 +920,16 @@ File: BoletinLaPaz_files/figure-latex/F6AspPre-1.pdf Graphic file (type pdf)
 File: BoletinLaPaz_files/figure-latex/F7AspPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F7AspPre-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--203
+Underfull \hbox (badness 10000) in paragraph at lines 209--211
 [][]
  []
 
 
-LaTeX Warning: Reference `fig:F8AspPre' on page 17 undefined on input line 207.
+LaTeX Warning: Reference `fig:F8AspPre' on page 17 undefined on input line 215.
 
 
 
-LaTeX Warning: Reference `fig:F9AspPre' on page 17 undefined on input line 207.
+LaTeX Warning: Reference `fig:F9AspPre' on page 17 undefined on input line 215.
 
 
 
@@ -941,7 +941,7 @@ File: BoletinLaPaz_files/figure-latex/F8AspPre-1.pdf Graphic file (type pdf)
 File: BoletinLaPaz_files/figure-latex/F9AspPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F9AspPre-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--211
+Underfull \hbox (badness 10000) in paragraph at lines 217--219
 [][]
  []
 
@@ -952,10 +952,10 @@ Underfull \vbox (badness 3989) has occurred while \output is active []
 File: BoletinLaPaz_files/figure-latex/F10AspPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F10AspPre-1.pdf>
 
-LaTeX Warning: Float too large for page by 34.04106pt on input line 228.
+LaTeX Warning: Float too large for page by 34.04106pt on input line 236.
 
 
-LaTeX Warning: Reference `fig:F1AdmPre' on page 19 undefined on input line 238.
+LaTeX Warning: Reference `fig:F1AdmPre' on page 19 undefined on input line 246.
 
 
 File: BoletinLaPaz_files/figure-latex/F1AdmPre-1.pdf Graphic file (type pdf)
@@ -965,11 +965,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [19] [20]
 
-LaTeX Warning: Reference `fig:F2AdmPre' on page 21 undefined on input line 245.
+LaTeX Warning: Reference `fig:F2AdmPre' on page 21 undefined on input line 253.
 
 
 
-LaTeX Warning: Reference `fig:F3AdmPre' on page 21 undefined on input line 245.
+LaTeX Warning: Reference `fig:F3AdmPre' on page 21 undefined on input line 253.
 
 
 File: BoletinLaPaz_files/figure-latex/F2AdmPre-1.pdf Graphic file (type pdf)
@@ -977,7 +977,7 @@ File: BoletinLaPaz_files/figure-latex/F2AdmPre-1.pdf Graphic file (type pdf)
 File: BoletinLaPaz_files/figure-latex/F3AdmPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F3AdmPre-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 255--257
 [][]
  []
 
@@ -986,11 +986,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [21]
 
-LaTeX Warning: Reference `fig:F4AdmPre' on page 22 undefined on input line 253.
+LaTeX Warning: Reference `fig:F4AdmPre' on page 22 undefined on input line 261.
 
 
 
-LaTeX Warning: Reference `fig:F5AdmPre' on page 22 undefined on input line 253.
+LaTeX Warning: Reference `fig:F5AdmPre' on page 22 undefined on input line 261.
 
 
 File: BoletinLaPaz_files/figure-latex/F4AdmPre-1.pdf Graphic file (type pdf)
@@ -998,17 +998,17 @@ File: BoletinLaPaz_files/figure-latex/F4AdmPre-1.pdf Graphic file (type pdf)
 File: BoletinLaPaz_files/figure-latex/F5AdmPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F5AdmPre-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--257
+Underfull \hbox (badness 10000) in paragraph at lines 263--265
 [][]
  []
 
 [22]
 
-LaTeX Warning: Reference `fig:F6AdmPre' on page 23 undefined on input line 261.
+LaTeX Warning: Reference `fig:F6AdmPre' on page 23 undefined on input line 269.
 
 
 
-LaTeX Warning: Reference `fig:F7AdmPre' on page 23 undefined on input line 261.
+LaTeX Warning: Reference `fig:F7AdmPre' on page 23 undefined on input line 269.
 
 
 File: BoletinLaPaz_files/figure-latex/F6AdmPre-1.pdf Graphic file (type pdf)
@@ -1016,13 +1016,13 @@ File: BoletinLaPaz_files/figure-latex/F6AdmPre-1.pdf Graphic file (type pdf)
 File: BoletinLaPaz_files/figure-latex/F7AdmPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F7AdmPre-1.pdf>
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--265
+Underfull \hbox (badness 10000) in paragraph at lines 271--273
 [][]
  []
 
 [23] [24]
 
-LaTeX Warning: Reference `fig:F8AdmPre' on page 25 undefined on input line 276.
+LaTeX Warning: Reference `fig:F8AdmPre' on page 25 undefined on input line 284.
 
 
 File: BoletinLaPaz_files/figure-latex/F8AdmPre-1.pdf Graphic file (type pdf)
@@ -1037,7 +1037,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: BoletinLaPaz_files/figure-latex/F9AdmPre-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F9AdmPre-1.pdf>
 
-LaTeX Warning: Float too large for page by 34.12473pt on input line 289.
+LaTeX Warning: Float too large for page by 34.12473pt on input line 297.
 
 [27] [28]
 Chapter 3.
@@ -1053,13 +1053,13 @@ Chapter 4.
 Chapter 5.
 [33]
 
-LaTeX Warning: Reference `fig:F1DocCar' on page 34 undefined on input line 365.
+LaTeX Warning: Reference `fig:F1DocCar' on page 34 undefined on input line 373.
 
 
 File: BoletinLaPaz_files/figure-latex/F1DocCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F1DocCar-1.pdf>
 
-LaTeX Warning: Reference `fig:F3DocCar' on page 34 undefined on input line 372.
+LaTeX Warning: Reference `fig:F3DocCar' on page 34 undefined on input line 380.
 
 
 
@@ -1075,7 +1075,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [35]
 
-LaTeX Warning: Reference `fig:F5DocCar' on page 36 undefined on input line 385.
+LaTeX Warning: Reference `fig:F5DocCar' on page 36 undefined on input line 393.
 
 
 File: BoletinLaPaz_files/figure-latex/F4DocCar-1.pdf Graphic file (type pdf)
@@ -1099,13 +1099,13 @@ File: BoletinLaPaz_files/figure-latex/F7DocCar-1.pdf Graphic file (type pdf)
 Chapter 6.
 [41]
 
-LaTeX Warning: Reference `fig:F1AdmiCar' on page 42 undefined on input line 449
+LaTeX Warning: Reference `fig:F1AdmiCar' on page 42 undefined on input line 457
 .
 
 File: BoletinLaPaz_files/figure-latex/F1AdmiCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F1AdmiCar-1.pdf>
 
-LaTeX Warning: Reference `fig:F3AdmiCar' on page 42 undefined on input line 456
+LaTeX Warning: Reference `fig:F3AdmiCar' on page 42 undefined on input line 464
 .
 
 
@@ -1121,7 +1121,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [43]
 
-LaTeX Warning: Reference `fig:F5AdmiCar' on page 44 undefined on input line 469
+LaTeX Warning: Reference `fig:F5AdmiCar' on page 44 undefined on input line 477
 .
 
 File: BoletinLaPaz_files/figure-latex/F4AdmiCar-1.pdf Graphic file (type pdf)
@@ -1148,12 +1148,12 @@ Chapter 7.
 ]
 Chapter 8.
 No file BoletinLaPaz.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 513.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
 [51]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 513.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
 (./BoletinLaPaz.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 513.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 513.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 521.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
 Package rerunfilecheck Info: File `BoletinLaPaz.out' has not changed.
 (rerunfilecheck)             Checksum: 542C77F0287B43A36C7D107FAC0F5681;3398.
 
@@ -1163,10 +1163,10 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  18505 strings out of 481269
  336882 string characters out of 5923492
- 756396 words of memory out of 5000000
+ 757398 words of memory out of 5000000
  35741 multiletter control sequences out of 15000+600000
  538789 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 58i,6n,118p,878b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,6n,118p,811b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on BoletinLaPaz.pdf (51 pages).
