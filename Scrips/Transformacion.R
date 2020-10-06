@@ -50,7 +50,7 @@ AdmitidosPRE <- Aspirantes %>% filter(INS_SEDE_NOMBRE == "De La Paz", TIPO_NIVEL
 # AspirantesPOS <- Aspirantes %>% filter(INS_SEDE_NOMBRE == "La Paz", TIPO_NIVEL == "Postgrado")
 # AdmitidosPOS <- Aspirantes %>% filter(INS_SEDE_NOMBRE == "La Paz", TIPO_NIVEL == "Postgrado", ADMITIDO == "Sí")
 
-# MatriculadosPRE <- Matriculados %>% filter(TIPO_NIVEL == "Pregrado", SEDE_NOMBRE_ADM == "La Paz")
+MatriculadosPRE <- Matriculados %>% filter(TIPO_NIVEL == "Pregrado", SEDE_NOMBRE_ADM == "De La Paz")
 # MatriculadosPOS <- Matriculados %>% filter(TIPO_NIVEL == "Postgrado", SEDE_NOMBRE_ADM == "La Paz", !(CONVENIO == "Sí" & TIP_CONVENIO == "Interno"))
 
 # GraduadosPRE <- Graduados %>% filter(TIPO_NIVEL == "Pregrado", SEDE_NOMBRE_ADM == 'La Paz')
@@ -75,8 +75,8 @@ AdmitidosPRE <- mutate(AdmitidosPRE, CAT_EDAD = if_else(is.na(CAT_EDAD), "Sin in
 AdmitidosPRE <- mutate(AdmitidosPRE, CAT_EDAD = ifelse(CAT_EDAD == "26 o  más años", "26 o más años", CAT_EDAD)) 
 
 
-# MatriculadosPRE <- mutate(MatriculadosPRE, CAT_EDAD = if_else(is.na(CAT_EDAD), "Sin información", CAT_EDAD)) 
-# MatriculadosPRE <- mutate(MatriculadosPRE, CAT_EDAD = ifelse(CAT_EDAD == "26 o  más años", "26 o más años", CAT_EDAD)) 
+MatriculadosPRE <- mutate(MatriculadosPRE, CAT_EDAD = if_else(is.na(CAT_EDAD), "Sin información", CAT_EDAD))
+MatriculadosPRE <- mutate(MatriculadosPRE, CAT_EDAD = ifelse(CAT_EDAD == "26 o  más años", "26 o más años", CAT_EDAD))
 
 # GraduadosPRE <- mutate(GraduadosPRE, CAT_EDAD = if_else(is.na(CAT_EDAD), "Sin información", CAT_EDAD)) 
 # GraduadosPRE <- mutate(GraduadosPRE, CAT_EDAD = ifelse(CAT_EDAD == "26 o  más años", "26 o más años", CAT_EDAD)) 
@@ -98,8 +98,8 @@ AdmitidosPRE$ESTRATO <- factor(AdmitidosPRE$ESTRATO, levels = c('Estrato 2 o men
 # AdmitidosPOS$ESTRATO <- factor(AdmitidosPOS$ESTRATO, levels = c('Estrato 2 o menos', 'Estrato 3', 'Estrato 4 o más', 'ND/NE'))
 
 
-# MatriculadosPRE$CAT_EDAD <- factor(MatriculadosPRE$CAT_EDAD, levels = c('17 años o menos', '18 a 20 años', '21 a 25 años', '26 o más años', 'Sin información'))
-# MatriculadosPRE$ESTRATO <- factor(MatriculadosPRE$ESTRATO, levels = c('Estrato 2 o menos', 'Estrato 3', 'Estrato 4 o más', 'ND/NE'))
+MatriculadosPRE$CAT_EDAD <- factor(MatriculadosPRE$CAT_EDAD, levels = c('17 años o menos', '18 a 20 años', '21 a 25 años', '26 o más años', 'Sin información'))
+MatriculadosPRE$ESTRATO <- factor(MatriculadosPRE$ESTRATO, levels = c('Estrato 2 o menos', 'Estrato 3', 'Estrato 4 o más', 'ND/NE'))
 # MatriculadosPOS$CAT_EDAD <- factor(MatriculadosPOS$CAT_EDAD, levels = c('25 años o menos', '26 a 30 años', '31 a 35 años', '36 años o más', 'Sin información'))
 # MatriculadosPOS$SEXO <- factor(MatriculadosPOS$SEXO, levels = c('Hombres', 'Mujeres'))
 
@@ -217,25 +217,25 @@ Adm_Pre_Carreras <- AdmitidosPRE %>% group_by(YEAR, SEMESTRE, PROGRAMA) %>% summ
 # Adm_Pos_Municipios <- AdmitidosPOS %>% group_by(YEAR, SEMESTRE,DEP_RES, CIU_RES) %>% summarise(Total=n()) %>% select(YEAR, SEMESTRE,DEP_RES, CIU_RES, Total) %>% ungroup() %>% mutate(across(where(is.character), replace_na,  replace = "SIN INFORMACIÓN")) 
 # Adm_Pos_Carreras <- AdmitidosPOS %>% group_by(YEAR, SEMESTRE, NIVEL, PROGRAMA) %>% summarise(Total=n()) %>% select(YEAR, SEMESTRE, NIVEL, PROGRAMA, Total) 
 
-# # MATRICULADOS ----
-# 
-# # Matriculados Pregrado ----
-# 
-# DT1 <- Clases(MatriculadosPRE, "SEXO")
-# DT2 <- Clases(MatriculadosPRE, "CAT_EDAD")
-# DT2 <- mutate(DT2, Total = ifelse(YEAR == 2011 & SEMESTRE == 2, NA, Total))
-# DT3 <- Clases(MatriculadosPRE, "ESTRATO")
-# DT3 <- mutate(DT3, Total = ifelse(YEAR == 2011 & SEMESTRE == 2, NA, Total))
-# TotalMatPre <- Total(MatriculadosPRE)
-# 
-# Agregado_MatPre <- bind_rows(DT1, DT2, DT3, TotalMatPre)
-# 
-# 
-# # Tablas matriculados en pregrado 
-# 
-# Mat_Pre_Municipios <- MatriculadosPRE %>% group_by(YEAR, SEMESTRE,DEP_PROC, CIU_PROC) %>% summarise(Total=n()) %>% select(YEAR, SEMESTRE,DEP_PROC, CIU_PROC, Total) %>% ungroup() %>% mutate(across(where(is.character), replace_na,  replace = "SIN INFORMACIÓN")) 
-# Mat_Pre_Carreras <- MatriculadosPRE %>% group_by(YEAR, SEMESTRE, PROGRAMA) %>% summarise(Total=n()) %>% select(YEAR, SEMESTRE, PROGRAMA, Total) 
-# 
+# MATRICULADOS ----
+
+# Matriculados Pregrado ----
+
+DT1 <- Clases(MatriculadosPRE, "SEXO")
+DT2 <- Clases(MatriculadosPRE, "CAT_EDAD")
+DT2 <- mutate(DT2, Total = ifelse(YEAR == 2011 & SEMESTRE == 2, NA, Total))
+DT3 <- Clases(MatriculadosPRE, "ESTRATO")
+DT3 <- mutate(DT3, Total = ifelse(YEAR == 2011 & SEMESTRE == 2, NA, Total))
+TotalMatPre <- Total(MatriculadosPRE)
+
+Agregado_MatPre <- bind_rows(DT1, DT2, DT3, TotalMatPre)
+
+
+# Tablas matriculados en pregrado
+
+Mat_Pre_Municipios <- MatriculadosPRE %>% group_by(YEAR, SEMESTRE,DEP_PROC, CIU_PROC) %>% summarise(Total=n()) %>% select(YEAR, SEMESTRE,DEP_PROC, CIU_PROC, Total) %>% ungroup() %>% mutate(across(where(is.character), replace_na,  replace = "SIN INFORMACIÓN"))
+Mat_Pre_Carreras <- MatriculadosPRE %>% group_by(YEAR, SEMESTRE, PROGRAMA) %>% summarise(Total=n()) %>% select(YEAR, SEMESTRE, PROGRAMA, Total)
+
 
 # # Matriculados Postgrado----
 # 

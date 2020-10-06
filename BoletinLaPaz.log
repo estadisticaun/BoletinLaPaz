@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.3)  5 OCT 2020 13:33
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020/W32TeX) (preloaded format=xelatex 2020.7.3)  5 OCT 2020 18:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1043,29 +1043,52 @@ LaTeX Warning: Float too large for page by 34.12473pt on input line 297.
 Chapter 3.
 [29
 
-] [30]
-Chapter 4.
-[31
+]
+File: BoletinLaPaz_files/figure-latex/F1MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F1MatPre-1.pdf>
+File: BoletinLaPaz_files/figure-latex/F2MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F2MatPre-1.pdf>
+File: BoletinLaPaz_files/figure-latex/F3MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F3MatPre-1.pdf>
+File: BoletinLaPaz_files/figure-latex/F4MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F4MatPre-1.pdf>
+File: BoletinLaPaz_files/figure-latex/F5MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F5MatPre-1.pdf>
+File: BoletinLaPaz_files/figure-latex/F6MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F6MatPre-1.pdf>
+File: BoletinLaPaz_files/figure-latex/F7MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F7MatPre-1.pdf>
+[30]
+File: BoletinLaPaz_files/figure-latex/F8MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F8MatPre-1.pdf>
 
-] [32
+LaTeX Warning: Float too large for page by 6.02852pt on input line 409.
+
+File: BoletinLaPaz_files/figure-latex/F9MatPre-1.pdf Graphic file (type pdf)
+<use BoletinLaPaz_files/figure-latex/F9MatPre-1.pdf>
+[31] [32] [33] [34] [35] [36] [37] [38] [39] [40
+
+]
+Chapter 4.
+[41] [42
 
 ]
 Chapter 5.
-[33]
+[43]
 
-LaTeX Warning: Reference `fig:F1DocCar' on page 34 undefined on input line 373.
+LaTeX Warning: Reference `fig:F1DocCar' on page 44 undefined on input line 464.
 
 
 File: BoletinLaPaz_files/figure-latex/F1DocCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F1DocCar-1.pdf>
 
-LaTeX Warning: Reference `fig:F3DocCar' on page 34 undefined on input line 380.
+LaTeX Warning: Reference `fig:F3DocCar' on page 44 undefined on input line 471.
 
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[34]
+[44]
 File: BoletinLaPaz_files/figure-latex/F2DocCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F2DocCar-1.pdf>
 File: BoletinLaPaz_files/figure-latex/F3DocCar-1.pdf Graphic file (type pdf)
@@ -1073,9 +1096,9 @@ File: BoletinLaPaz_files/figure-latex/F3DocCar-1.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[35]
+[45]
 
-LaTeX Warning: Reference `fig:F5DocCar' on page 36 undefined on input line 393.
+LaTeX Warning: Reference `fig:F5DocCar' on page 46 undefined on input line 484.
 
 
 File: BoletinLaPaz_files/figure-latex/F4DocCar-1.pdf Graphic file (type pdf)
@@ -1085,33 +1108,33 @@ File: BoletinLaPaz_files/figure-latex/F5DocCar-1.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[36]
+[46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[37]
+[47]
 File: BoletinLaPaz_files/figure-latex/F6DocCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F6DocCar-1.pdf>
 File: BoletinLaPaz_files/figure-latex/F7DocCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F7DocCar-1.pdf>
-[38] [39] [40
+[48] [49] [50
 
 ]
 Chapter 6.
-[41]
+[51]
 
-LaTeX Warning: Reference `fig:F1AdmiCar' on page 42 undefined on input line 457
+LaTeX Warning: Reference `fig:F1AdmiCar' on page 52 undefined on input line 548
 .
 
 File: BoletinLaPaz_files/figure-latex/F1AdmiCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F1AdmiCar-1.pdf>
 
-LaTeX Warning: Reference `fig:F3AdmiCar' on page 42 undefined on input line 464
+LaTeX Warning: Reference `fig:F3AdmiCar' on page 52 undefined on input line 555
 .
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[42]
+[52]
 File: BoletinLaPaz_files/figure-latex/F2AdmiCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F2AdmiCar-1.pdf>
 File: BoletinLaPaz_files/figure-latex/F3AdmiCar-1.pdf Graphic file (type pdf)
@@ -1119,9 +1142,9 @@ File: BoletinLaPaz_files/figure-latex/F3AdmiCar-1.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[43]
+[53]
 
-LaTeX Warning: Reference `fig:F5AdmiCar' on page 44 undefined on input line 477
+LaTeX Warning: Reference `fig:F5AdmiCar' on page 54 undefined on input line 568
 .
 
 File: BoletinLaPaz_files/figure-latex/F4AdmiCar-1.pdf Graphic file (type pdf)
@@ -1131,29 +1154,29 @@ File: BoletinLaPaz_files/figure-latex/F5AdmiCar-1.pdf Graphic file (type pdf)
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[44]
+[54]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[45]
+[55]
 File: BoletinLaPaz_files/figure-latex/F6AdmiCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F6AdmiCar-1.pdf>
 File: BoletinLaPaz_files/figure-latex/F7AdmiCar-1.pdf Graphic file (type pdf)
 <use BoletinLaPaz_files/figure-latex/F7AdmiCar-1.pdf>
-[46] [47] [48
+[56] [57] [58
 
 ]
 Chapter 7.
-[49] [50
+[59] [60
 
 ]
 Chapter 8.
 No file BoletinLaPaz.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
-[51]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 612.
+[61]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 612.
 (./BoletinLaPaz.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 521.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 612.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 612.
 Package rerunfilecheck Info: File `BoletinLaPaz.out' has not changed.
 (rerunfilecheck)             Checksum: 542C77F0287B43A36C7D107FAC0F5681;3398.
 
@@ -1161,12 +1184,12 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 18505 strings out of 481269
- 336882 string characters out of 5923492
- 757398 words of memory out of 5000000
- 35741 multiletter control sequences out of 15000+600000
+ 18575 strings out of 481269
+ 339678 string characters out of 5923492
+ 762203 words of memory out of 5000000
+ 35802 multiletter control sequences out of 15000+600000
  538789 words of font info for 77 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  58i,6n,118p,811b,370s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on BoletinLaPaz.pdf (51 pages).
+Output written on BoletinLaPaz.pdf (61 pages).

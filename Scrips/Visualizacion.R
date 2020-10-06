@@ -541,98 +541,76 @@ TABLA_CARRERAS_ADM_PRE <- tabla_n(
 #   titulo = "Histórico total de admitidos a postgrado por Nivel de Formación y Programas"
 # )
 
-# # MATRICULADOS ----
-# 
-# # Matriculados en Pregrado ----
-# 
-# ano <- max(Agregado_MatPre %>% select(YEAR))
-# semestre <- Agregado_MatPre[[nrow(Agregado_MatPre), "SEMESTRE"]]
-# periodo_actual_titulo <- paste0(" ", ano, "-", semestre)
-# 
-# # Serie histórica ----
-# 
-# col <-   c( "#8cc63f") # verde, Total
-# 
-# SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "TOTAL", colores = col, titulo = "Evolución histórica del total de matriculados en pregrado", eje = "Número de matriculados")           
-# 
-# # Etapa ----
-# 
-# col <-   c( "#f15a24", # naranja, Etapa de movilidad
-#             "#8cc63f") # verde, Etapa inicial
-# 
-# MOV_PEAMA_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "MOV_PEAMA", colores = col, titulo = "Evolución del total de matriculados en pregrado según etapa de formación", eje = "Número de estudiantes (k: miles)")
-# MOV_PEAMA_ACTUAL_MAT_PRE <- torta(datos = Agregado_MatPre, variable = "MOV_PEAMA", colores = col, titulo = "Distribución del total de matriculados en pregrado según etapa de formación", etiqueta = "Número de estudiantes", ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo)
-# 
-# # Sede Andina ----
-# 
-# 
-# col <-   c( "#8cc63f", # verde, Bogotá
-#             "#0071bc", # azul vivo, Manizales
-#             "#f15a24", # naranja, Medellín
-#             "#93278f"  # Morado, Palmira
-#           
-# ) 
-# 
-# 
-# SEDE_ANDINA_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "ADM_PEAMA_ANDINA", colores = col, titulo = "Evolución del número de estudiantes matriculados en pregrado según sede andina de ubicación", eje = "Número de estudiantes (k: miles)")
-# SEDE_ANDINA_ACTUAL_MAT_PRE <- barra_vertical(datos = Agregado_MatPre, categoria = "ADM_PEAMA_ANDINA",colores = col, ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo, titulo = "Distribución de estudiantes matriculados en pregrado por sede andina de ubicación", eje = "Número de estudiantes")
-# 
-# 
-# # Sexo ----
-# 
-# col <-   c( "#f15a24", # naranja, hombres
-#             "#8cc63f") # verde, mujeres
-# 
-# 
-# SEXO_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "SEXO", colores = col, titulo = "Evolución del número de matriculados en pregrado por sexo", eje = "Número de matriculados")
-# SEXO_ACTUAL_MAT_PRE <- torta(datos = Agregado_MatPre, variable = "SEXO", colores = col, titulo = "Distribución de matriculados en pregrado por sexo", etiqueta = "Número de matriculados", ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo)
-# 
-# 
-# # Edad ----
-# 
-# col <-   c( "#8cc63f", # verde, 17 o menos
-#             "#f15a24", # naranja,  18 a 20 
-#             "#0071bc", # azul vivo, 21 a 25
-#             "#6d6666", # gris, 26 o más
-#             "#fbb03b" ) # amarillo, sin información
-# 
-# 
-# EDAD_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "CAT_EDAD", colores = col, titulo = "Evolución del número de estudiantes matriculados en pregrado por grupos de edad", eje = "Número de estudiantes (k: miles)")
-# EDAD_ACTUAL_MAT_PRE <- barra_vertical_ord(datos = Agregado_MatPre, categoria = "CAT_EDAD", colores = col, ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo, titulo = "Distribución de estudiantes matriculados en pregrado por grupos de edad", eje = "Número de estudiantes (k: miles)")
-# 
-# 
-# # Estrato ----
-# 
-# col <-   c( "#8cc63f", # verde, Estrato 2 o menos
-#             "#f15a24", # naranja, Estrato 3
-#             "#0071bc", # azul vivo, Estrato 4 o más
-#             "#6d6666" # gris, ND/NE
-# )
-# 
-# 
-# ESTRATO_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "ESTRATO", colores = col, titulo = "Evolución del número de estudiantes matriculados en pregrado por estrato socioeconómico", eje = "Número de estudiantes (k: miles)")
-# ESTRATO_ACTUAL_MAT_PRE <- barra_vertical_ord(datos = Agregado_MatPre, categoria = "ESTRATO", colores = col, ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo, titulo = "Distribución de estudiantes matriculados en pregrado por estrato", eje = "Número de estudiantes (k: miles)")
-# 
-# 
-# # Tablas ----
-# 
-# 
-# TABLA_MUNICIPIOS_MAT_PRE <- tabla_n(
-#   datos = Mat_Pre_Municipios,
-#   categorias = c("Año","Semestre","Departamento", "Municipio", "Total"),
-#   variable = 'Lugar de residencia del matriculado en pregrado',
-#   mensaje = "Número de matriculados en pregrado por lugar de procedencia",
-#   titulo = "Histórico total de matriculados en pregrado por departamento y municipio de procedencia"  
-# )
-# 
-# 
-# TABLA_CARRERAS_MAT_PRE <- tabla_n(
-#   datos = Mat_Pre_Carreras,
-#   categorias = c("Año","Semestre","Sede Andina","Facultad","Programa", "Total"),
-#   variable = 'Sede Andina, Facultad y Programas Académicos del matriculado en pregrado',
-#   mensaje = "Número de matriculados en pregrado por Sede, Facultad y Programa",
-#   titulo = "Histórico total de matriculados en pregrado por sede andina, facultad y programas"
-# )
+# MATRICULADOS ----
+
+# Matriculados en Pregrado ----
+
+ano <- max(Agregado_MatPre %>% select(YEAR))
+semestre <- Agregado_MatPre[[nrow(Agregado_MatPre), "SEMESTRE"]]
+periodo_actual_titulo <- paste0(" ", ano, "-", semestre)
+
+# Serie histórica ----
+
+col <-   c( "#8cc63f") # verde, Total
+
+SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "TOTAL", colores = col, titulo = "Evolución histórica del total de matriculados en pregrado", eje = "Número de matriculados")
+
+
+# Sexo ----
+
+col <-   c( "#f15a24", # naranja, hombres
+            "#8cc63f") # verde, mujeres
+
+
+SEXO_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "SEXO", colores = col, titulo = "Evolución del número de matriculados en pregrado por sexo", eje = "Número de matriculados")
+SEXO_ACTUAL_MAT_PRE <- torta(datos = Agregado_MatPre, variable = "SEXO", colores = col, titulo = "Distribución de matriculados en pregrado por sexo", etiqueta = "Número de matriculados", ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo)
+
+
+# Edad ----
+
+col <-   c( "#8cc63f", # verde, 17 o menos
+            "#f15a24", # naranja,  18 a 20
+            "#0071bc", # azul vivo, 21 a 25
+            "#6d6666", # gris, 26 o más
+            "#fbb03b" ) # amarillo, sin información
+
+
+EDAD_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "CAT_EDAD", colores = col, titulo = "Evolución del número de estudiantes matriculados en pregrado por grupos de edad", eje = "Número de estudiantes (k: miles)")
+EDAD_ACTUAL_MAT_PRE <- barra_vertical_ord(datos = Agregado_MatPre, categoria = "CAT_EDAD", colores = col, ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo, titulo = "Distribución de estudiantes matriculados en pregrado por grupos de edad", eje = "Número de estudiantes (k: miles)")
+
+
+# Estrato ----
+
+col <-   c( "#8cc63f", # verde, Estrato 2 o menos
+            "#f15a24", # naranja, Estrato 3
+            "#0071bc", # azul vivo, Estrato 4 o más
+            "#6d6666" # gris, ND/NE
+)
+
+
+ESTRATO_SERIE_MAT_PRE <- series(datos = Agregado_MatPre, categoria = "ESTRATO", colores = col, titulo = "Evolución del número de estudiantes matriculados en pregrado por estrato socioeconómico", eje = "Número de estudiantes (k: miles)")
+ESTRATO_ACTUAL_MAT_PRE <- barra_vertical_ord(datos = Agregado_MatPre, categoria = "ESTRATO", colores = col, ano = ano, periodo = semestre, periodo_titulo = periodo_actual_titulo, titulo = "Distribución de estudiantes matriculados en pregrado por estrato", eje = "Número de estudiantes (k: miles)")
+
+
+# Tablas ----
+
+
+TABLA_MUNICIPIOS_MAT_PRE <- tabla_n(
+  datos = Mat_Pre_Municipios,
+  categorias = c("Año","Semestre","Departamento", "Municipio", "Total"),
+  variable = 'Lugar de residencia del matriculado en pregrado',
+  mensaje = "Número de matriculados en pregrado por lugar de procedencia",
+  titulo = "Histórico total de matriculados en pregrado por departamento y municipio de procedencia"
+)
+
+
+TABLA_CARRERAS_MAT_PRE <- tabla_n(
+  datos = Mat_Pre_Carreras,
+  categorias = c("Año","Semestre", "Programa", "Total"),
+  variable = 'Programas Académicos del matriculado en pregrado',
+  mensaje = "Número de matriculados en pregrado por Programas académicos",
+  titulo = "Histórico total de matriculados en pregrado por programas académicos"
+)
 
 # # Matriculados en Postgrado ----
 # 

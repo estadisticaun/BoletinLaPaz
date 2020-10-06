@@ -22,128 +22,88 @@ La construcción de las cifras oficiales de estudiantes matriculados en pregrado
 
 A continuación, se presenta la información oficial del total de estudiantes matricualdos en pregrado en la Universidad y que han sido admitidos a través de la **Sede La Paz**. En específico, se presenta la evolución histórica de los matriculados en pregrado desde diferentes perspectivas: general, etapa de formación, sedes andinas, sexo, grupos de edad,  estrato socioeconómico, departamentos y municipios de residencia y programas académicos en los que estos se encuentran matriculados. Para cada una de las variables analizadas se presenta la evolución histórica (*serie de tiempo*) así como el comportamiento actual (*estado actual*) derivado de las últimas mediciones disponibles.
 
-<!-- ### Evolución histórica -->
+### Evolución histórica
 
-<!-- A continuación, la Figura \@ref(fig:F1MatPre), presenta la evolución histórica -*desde el periodo 20151*-, del total de matriculados en pregrado en la **Sede La Paz**. -->
+A continuación, la Figura \@ref(fig:F1MatPre), presenta la evolución histórica -*desde el periodo 20192*-, del total de matriculados en pregrado en la **Sede La Paz**.
 
-<!-- ```{r F1MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- SERIE_MAT_PRE -->
-<!-- ``` -->
+```{r F1MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+SERIE_MAT_PRE
+```
 
-<!-- <br> -->
+<br>
 
+### Información por sexo
 
-<!-- ### Información por etapa de formación  -->
+A continuación, las figuras \@ref(fig:F2MatPre) y \@ref(fig:F3MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de matriculados en pregrado en la **Sede La Paz** según el sexo biológico.
 
-<!-- A continuación, las figuras \@ref(fig:F2MatPre) y \@ref(fig:F3MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de matriculados en pregrado en la **Sede La Paz** según la etapa de formación en la que estos se encuentran.  -->
+```{r F2MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+SEXO_SERIE_MAT_PRE
+```
 
-<!-- * *Etapa Inicial*: Estudiantes matriculados en pregrado ubicados físicamente en la *Sede La Paz* -->
+<br>
 
-<!-- * *Etapa de movilidad*: Estudiantes matriculados en pregrado ubicados físicamente en las sedes andinas (*Bogotá*, *Medellín*, *Manizales* o *Palmira*). -->
+```{r F3MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+SEXO_ACTUAL_MAT_PRE
+```
 
-<!-- <br> -->
+<br>
 
-<!-- ```{r F2MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- MOV_PEAMA_SERIE_MAT_PRE -->
-<!-- ``` -->
+### Información por edad
 
-<!-- <br> -->
+A continuación, las figuras \@ref(fig:F4MatPre) y \@ref(fig:F5MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de estudiantes matriculados en pregrado de la **Sede La Paz** según grupos de edad.
 
-<!-- ```{r F3MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- MOV_PEAMA_ACTUAL_MAT_PRE -->
-<!-- ``` -->
+```{r F4MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+EDAD_SERIE_MAT_PRE
+```
 
-<!-- <br> -->
+<br>
 
-<!-- ### Información por sede andina -->
+```{r F5MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+EDAD_ACTUAL_MAT_PRE
+```
 
-<!-- A continuación, las figuras \@ref(fig:F4MatPre) y \@ref(fig:F5MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de estudiantes matriculados de pregrado en la **Sede La Paz** según la sede andina en la que estos cursarán (etapa inicial) o se encuentran cursando sus estudios (etapa de movilidad). -->
+<br>
 
-<!-- ```{r F4MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- SEDE_ANDINA_SERIE_MAT_PRE -->
-<!-- ``` -->
+### Información por estrato
 
-<!-- <br> -->
+A continuación, las figuras \@ref(fig:F6MatPre) y \@ref(fig:F7MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de estudiantes matriculados en pregrado en la **Sede La Paz** según el estrato socioeconómico.
 
-<!-- ```{r F5MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- SEDE_ANDINA_ACTUAL_MAT_PRE -->
-<!-- ``` -->
+```{r F6MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+ESTRATO_SERIE_MAT_PRE
+```
 
-<!-- <br> -->
+<br>
 
+```{r F7MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+ESTRATO_ACTUAL_MAT_PRE
+```
 
-<!-- ### Información por sexo  -->
-
-<!-- A continuación, las figuras \@ref(fig:F6MatPre) y \@ref(fig:F7MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de matriculados en pregrado en la **Sede La Paz** según el sexo biológico. -->
-
-<!-- ```{r F6MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- SEXO_SERIE_MAT_PRE -->
-<!-- ``` -->
-
-<!-- <br> -->
-
-<!-- ```{r F7MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- SEXO_ACTUAL_MAT_PRE -->
-<!-- ``` -->
-
-<!-- <br> -->
-
-<!-- ### Información por edad -->
-
-<!-- A continuación, las figuras \@ref(fig:F8MatPre) y \@ref(fig:F9MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de estudiantes matriculados en pregrado de la **Sede La Paz** según grupos de edad. -->
-
-<!-- ```{r F8MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- EDAD_SERIE_MAT_PRE -->
-<!-- ``` -->
-
-<!-- <br> -->
-
-<!-- ```{r F9MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- EDAD_ACTUAL_MAT_PRE -->
-<!-- ``` -->
-
-<!-- <br> -->
-
-<!-- ### Información por estrato -->
-
-<!-- A continuación, las figuras \@ref(fig:F10MatPre) y \@ref(fig:F11MatPre) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de estudiantes matriculados en pregrado en la **Sede La Paz** según el estrato socioeconómico. -->
-
-<!-- ```{r F10MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- ESTRATO_SERIE_MAT_PRE -->
-<!-- ``` -->
-
-<!-- <br> -->
-
-<!-- ```{r F11MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- ESTRATO_ACTUAL_MAT_PRE -->
-<!-- ``` -->
-
-<!-- <br> -->
+<br>
 
 
-<!-- ### Tablas cifras agregadas -->
+### Tablas cifras agregadas
 
-<!-- A continuación se presentan, a través de tablas, los agregados/consolidados históricos del total de matriculados en pregrado de la **Sede La Paz** por departamentos y municipios de procedencia así como los programas académicos de pregrado que estos cursan en las sedes andinas de la Universidad (Bogotá, Medellín, Manizales y Palmira). -->
+A continuación se presentan, a través de tablas, los agregados/consolidados históricos del total de matriculados en pregrado de la **Sede La Paz** por departamentos y municipios de procedencia así como los programas académicos de pregrado que estos cursan en las sedes andinas de la Universidad (Bogotá, Medellín, Manizales y Palmira).
 
-<!-- Los interesados en *imprimir*, *copiar* o *descargar* estas cifras, pueden hacerlo a través de las múltiples opciones que se ofrecen en la parte superior izquierda de cada una de las tablas (Copiar, CSV, Excel, PDF e Imprimir). Así mismo, estas tablas permiten filtrar los resultados por aquellas variables de interés. -->
-
-
-<!-- #### Departamentos y municipios de procedencia -->
+Los interesados en *imprimir*, *copiar* o *descargar* estas cifras, pueden hacerlo a través de las múltiples opciones que se ofrecen en la parte superior izquierda de cada una de las tablas (Copiar, CSV, Excel, PDF e Imprimir). Así mismo, estas tablas permiten filtrar los resultados por aquellas variables de interés.
 
 
-<!-- A continuación, la Tabla \@ref(fig:F12MatPre) presenta los acumulados **históricos**, por **años y semestres**, en la **Sede La Paz**, de los matriculados en pregrado por departamentos y municipios de procedencia.  -->
+#### Departamentos y municipios de procedencia
 
-<!-- ```{r F12MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- TABLA_MUNICIPIOS_MAT_PRE -->
-<!-- ``` -->
 
-<!-- #### Programas académicos de pregrado -->
+A continuación, la Tabla \@ref(fig:F8MatPre) presenta los acumulados **históricos**, por **años y semestres**, en la **Sede La Paz**, de los matriculados en pregrado por departamentos y municipios de procedencia.
 
-<!-- A continuación, la Tabla \@ref(fig:F13MatPre) presenta el acumulado histórico de matriculados en pregrado, en la **Sede La Paz**, por años, semestres, sedes andinas, facultades y programas académicos cursados. -->
+```{r F8MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+TABLA_MUNICIPIOS_MAT_PRE
+```
 
-<!-- ```{r F13MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
-<!-- TABLA_CARRERAS_ADM_PRE -->
-<!-- ``` -->
+#### Programas académicos de pregrado
+
+A continuación, la Tabla \@ref(fig:F9MatPre) presenta el acumulado histórico de matriculados en pregrado en la **Sede La Paz**, por años, semestres, sedes andinas, facultades y programas académicos cursados.
+
+```{r F9MatPre, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'}
+TABLA_CARRERAS_MAT_PRE
+```
 
 
 
@@ -161,7 +121,7 @@ A continuación, se presenta la información oficial del total de estudiantes ma
 
 <!-- <br> -->
 
-<!-- ### Información por sexo  -->
+<!-- ### Información por sexo -->
 
 <!-- A continuación, las figuras \@ref(fig:F2MatPos) y \@ref(fig:F3MatPos) presentan, respectivamente, la evolución histórica y el comportamiento actual del total de matriculados en postgrado en la **Sede La Paz** según el sexo biológico. -->
 
@@ -203,7 +163,7 @@ A continuación, se presenta la información oficial del total de estudiantes ma
 <!-- #### Departamentos y municipios de procedencia -->
 
 
-<!-- La Tabla \@ref(fig:F6MatPos) presenta los acumulados **históricos**, por **años y semestres**, en la **Sede La Paz**, de los matriculados en postgrado por departamentos y municipios de procedencia.  -->
+<!-- La Tabla \@ref(fig:F6MatPos) presenta los acumulados **históricos**, por **años y semestres**, en la **Sede La Paz**, de los matriculados en postgrado por departamentos y municipios de procedencia. -->
 
 <!-- ```{r F6MatPos, fig.cap='Fuente: Dirección Nacional de Planeación y Estadística con base en información de la Dirección Nacional Información Académica'} -->
 <!-- TABLA_MUNICIPIOS_MAT_POS -->
